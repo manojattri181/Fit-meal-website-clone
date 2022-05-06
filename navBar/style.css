@@ -1,0 +1,129 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+#cont{
+    height: 45px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid rgb(191, 188, 188);
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    padding-left: 80px;
+    line-height: 30px;
+    padding-top: -20px;
+    
+}
+
+#bold{
+    font-weight: bold;
+}
+#green{
+    color: rgb(77, 196, 77);
+    font-size: 1.5rem;
+    margin: 10px;
+     padding-top: -40px; 
+}
+#conta{
+    margin-left: 460px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+     font-size: 1.5rem;
+    font-weight: normal;
+
+}
+#conta>#search:hover{
+    color: red;
+}
+#conta>#user:hover{
+    color: red;
+}
+#conta>#bag:hover{
+    color: red;
+}
+
+#sumit{
+    height: 120px;
+    width: 100%;
+    background-color: white;
+    /* border: 1px solid rgb(191, 188, 188); */
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    position: absolute;
+}   
+
+#image{
+    width: 5%;
+    padding-left: 195px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+   list-style: none;
+  
+  
+}
+ul li{
+    float: left;
+    width: 140px;
+    height: 40px;
+    font-family: 'Acme', sans-serif;
+    background-color: white;
+    line-height: 40px;
+    text-align: center;
+    font-size: 1rem;
+    padding-left: 60px;
+   font-weight: bold;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+    display: block;
+   transition: 0.3s;
+  
+}
+ul li a:hover{
+    background: #8ec038;
+    border-radius: 10px;
+  
+}
+ul li ul li{
+    display: none;
+   
+}
+ul li:hover ul li{
+    display: block;
+}
+#home1{
+    color: #8ec038;
+}
+#home1:hover{
+    background: #8ec038;
+    color: white;
+}
+#button{
+    margin-left: 10px;
+    padding: 15px 30px 15px 30px;
+    border-color:white;
+    background-color: rgb(240, 10, 10);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    border-radius: 40px;
+    transition: 0.4s ease-in-out;
+   
+
+}
+#button:hover{
+    background-color: rgb(61, 171, 61)
+    
+}
