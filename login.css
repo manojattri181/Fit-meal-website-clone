@@ -1,0 +1,60 @@
+
+#container{
+    /* border:1px solid red; */
+    width:50%;
+    height: 450px;
+    margin: auto;
+    margin-top:60px;
+    padding:20px;
+    font-family:sans-serif;
+}
+#content{
+    border:1px solid gray;
+    width:100%;
+    height: 85%;
+    padding:20px;
+    color: rgb(93, 92, 92);
+    
+}
+#login{
+  font-size: 35px;
+}
+
+#form{
+    display:flex;
+    flex-direction: column;
+}
+#form>input{
+    width:97%;
+    height: 50px;
+    border-radius: 25px;
+    border:1px solid gray;
+}
+
+#submit{
+    width:15%;
+    margin-top: 30px;
+    background-color: red;
+    border-radius: 20px;
+    font-weight: 800;
+    border: none;
+
+    color:wheat;
+}
+#submit:hover{
+    background-color: #70a21a;
+}
+#bot{
+    display: flex;
+    justify-content: flex-start;
+    gap:20px;
+    margin-bottom: 20px;
+}
+#bot-right{
+    display:flex;
+    margin-top: 20px;
+
+}
+#bot-right>input{
+  margin-top: 20px;
+}
