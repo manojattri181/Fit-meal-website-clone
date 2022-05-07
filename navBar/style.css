@@ -51,12 +51,11 @@ p{
     height: 120px;
     width: 100%;
     background-color: white;
-    /* border: 1px solid rgb(191, 188, 188); */
     display: flex;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
-    position: absolute;
+    /* position: fixed; */
 }   
 
 #image{
@@ -64,66 +63,78 @@ p{
     padding-left: 195px;
 }
 
-ul{
-    margin: 0;
-    padding: 0;
-   list-style: none;
-  
-  
-}
-ul li{
-    float: left;
-    width: 140px;
-    height: 40px;
-    font-family: 'Acme', sans-serif;
-    background-color: white;
-    line-height: 40px;
-    text-align: center;
-    font-size: 1rem;
-    padding-left: 60px;
-   font-weight: bold;
+#content{
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-top: -20px;
+    position: absolute;
     
 }
-ul li a{
+#content>li{
+    width: auto;
+    list-style-type: none;
+    font-family: 'Acme', sans-serif;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+    
+#content li a{
     text-decoration: none;
     color: rgb(5, 5, 5);
     display: block;
-   transition: 0.3s;
+    transition: 0.3s;
+}
+#content>li a:hover{
+    color: #8ec038;
+    text-decoration: underline;
   
 }
-ul li a:hover{
-    background: #8ec038;
-    border-radius: 10px;
-  
-}
-ul li ul li{
+#content>li ul li{
     display: none;
    
 }
-ul li:hover ul li{
-    display: block;
+#content>li:hover ul li{
+    font-size: 16px;
+    line-height: 28px;
+    width: 200px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+#content>li ul li:hover{
+    background-color: #8ec038;
+    color: white;
+    border-radius: 10px;
+}
+#content>li ul li a:hover{
+    padding: 10px;
+    color: white;
 }
 #home1{
     color: #8ec038;
 }
 #home1:hover{
-    background: #8ec038;
     color: white;
 }
 #button{
-    margin-left: 10px;
-    padding: 15px 30px 15px 30px;
+    height: 60px;
+    margin-top: -20px;
+    padding: 15px 30px ;
     border-color:white;
-    background-color: rgb(240, 10, 10);
+    background-color: rgb(221, 57, 57);
     color: white;
-    font-size: 1.2rem;
+    font-size: 20px;
     font-weight: bolder;
     border-radius: 40px;
-    transition: 0.4s ease-in-out;
-   
-
+    transition: 0.2s ease-in;
 }
 #button:hover{
-    background-color: rgb(61, 171, 61)
+    background-color: rgb(61, 171, 61);
+    cursor: pointer;
     
 }
