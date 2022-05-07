@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Vegan Sweets</title>
+    <link rel="shortcut icon" href="products.imges/favicon_logo.png">
+    <link rel="stylesheet" href="product.css">
+</head>
+
+<body>
+    <div id="logo">
+        <h1>Vegan Sweets</h1>
+    </div>
+    <div id="panel">
+        <div id="search_panel">
+            <div id="search_bar">
+                <input type="search" placeholder="Search" >
+                <button></button>
+            </div>
+             <div id="product_cat">
+                 <h3>Product categories <hr></h3>
+                 <ul type="none">
+                     <li>
+                         <span>></span> <a id="dietplan" href="">Diet Plans</a>
+                     </li> <hr>
+                     <li id="mealplan" >
+                           <span>></span> <a href="">Meal Plans </a> 
+                         <hr>
+                     </li>
+                     <li id="products" >
+                         <span>></span> <a href="">Products</a>
+                         <hr>
+                     </li>
+                 </ul>
+
+             </div>
+           <div id="cart">
+               <h3>Cart <hr></h3>
+               <div id="content">
+                   <p>No Product in the cart.</p>
+                   <div id="container1">
+                   </div>
+               </div>
+           </div>
+         </div>
+         
+         <div id="right_container">
+             <div id="showing"> 
+                 <div>
+                    <p>Showing 1-6 of 24 results</p>
+                </div>
+                <div>
+                    <select  id="sort">
+                        <option value="">Default sorting</option>
+                        <option value="">sort by popularity</option>
+                        <option value="">sort by average rating</option>
+                        <option value="">sort by latest</option>
+                        <option value="">sort by price:high to low</option>
+                        <option value="">sort by price:low to high</option>
+                    </select>
+                </div>
+             </div> 
+            <div id="container">
+              <div>
+                     <!-- content comes from js  -->
+              </div>
+            </div>
+         </div>
+         
+    </div>
+</body>
+</html> 
+
+<script src="product.js"></script>
+ 
