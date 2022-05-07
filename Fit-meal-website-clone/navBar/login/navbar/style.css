@@ -1,0 +1,151 @@
+*{
+margin: 0;
+padding: 0;
+}
+#cont{
+    height: 45px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid rgb(191, 188, 188);
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    z-index: 10;
+    top: -3px;
+}
+p{
+    padding-left: 80px;
+    line-height: 30px;
+    padding-top: -20px;
+}
+#bold{
+    font-weight: bold;
+}
+#green{
+    color: rgb(77, 196, 77);
+    font-size: 1.5rem;
+    margin: 10px;
+     padding-top: -40px; 
+}
+#conta{
+    margin-left: 460px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+     font-size: 1.5rem;
+    font-weight: normal;
+
+}
+#conta i{
+    color: black;
+}
+#conta i:hover{
+    color: #8ec038;
+}
+
+#sumit{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    position: fixed;
+    top: 41px;
+    z-index: 10;
+}   
+#image{
+    width: 5%;
+    padding-left: 195px;
+}
+
+#conten{
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-top: -20px;
+    position: absolute;
+    
+}
+#conten>li{
+    width: auto;
+    list-style-type: none;
+    font-family: 'Acme', sans-serif;
+    /* background-color: white; */
+    font-size: 18px;
+    font-weight: 600;
+}
+
+    
+#conten li a{
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+    display: block;
+    transition: 0.3s;
+}
+#conten>li a:hover{
+    color: #8ec038;
+    text-decoration: underline;
+  
+}
+#conten>li ul li{
+    display: none;
+   
+}
+#conten>li:hover ul{
+    background: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+#conten>li:hover ul li{
+    font-size: 16px;
+    line-height: 28px;
+    width: 200px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+     background: white;
+}
+#conten>li ul li:hover{
+    background-color: #8ec038;
+    color: white;
+    border-radius: 10px;
+}
+#conten>li ul li a:hover{
+    padding: 10px;
+    color: white;
+}
+#home1{
+    color: #8ec038;
+}
+#home1:hover{
+    color: white;
+}
+#button{
+    height: 60px;
+    margin-top: -20px;
+    padding: 15px 30px ;
+    background-color: rgb(221, 57, 57);
+    color: white;
+    font-size: 20px;
+    border: 0;
+    font-weight: bolder;
+    border-radius: 40px;
+    transition: 0.2s ease-in;
+}
+#button:hover{
+    background-color: #8ec038;
+    cursor: pointer;
+}
+#circle{
+    border: 0;
+    background-color: rgb(223, 61, 61);
+    border-radius: 50%;
+    color: white;
+    font-size: 34px;
+    cursor: pointer;
+}
