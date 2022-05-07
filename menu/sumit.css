@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    #cont{
+        height: 45px;
+        width: 100%;
+        background-color: white;
+        border: 1px solid rgb(191, 188, 188);
+        display: flex;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    p{
+        padding-left: 80px;
+        line-height: 30px;
+        padding-top: -20px;
+        
+    }
+    
+    #bold{
+        font-weight: bold;
+    }
+    #green{
+        color: rgb(77, 196, 77);
+        font-size: 1.5rem;
+        margin: 10px;
+         padding-top: -40px; 
+    }
+    #conta{
+        margin-left: 460px;
+        display: flex;
+        align-items: center;
+        gap: 50px;
+         font-size: 1.5rem;
+        font-weight: normal;
+    
+    }
+    #conta>#search:hover{
+        color: red;
+    }
+    #conta>#user:hover{
+        color: red;
+    }
+    #conta>#bag:hover{
+        color: red;
+    }
+
+    #sumit{
+        height: 100px;
+        width: 100%;
+        border: 1px solid black;
+    }
+    #box{
+        display: flex;
+      
+    }
+    #img{
+        width: 20%;
+        padding-top: 20px;
+        padding-left: 180px;
+      
+    }
+    #box > #box1{
+        height: 100px;
+        width: 30%;
+        border: 1px solid black;
+    }
+
+    #box > #box2{
+        height: 100px;
+        width: 40%;
+        border: 1px solid black;
+        
+        padding-left: 20px;
+        
+        
+    }
+    #navbar{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        gap: 20px;
+    }
+    #meal{
+        color: rgb(56, 191, 56);
+        border:transparent;
+    }
+    #home{
+        color: rgb(56, 191, 56);
+        text-decoration: none;
+        padding-top: 20px;
+        font-family: 'Poppins', sans-serif;
+        list-style-type: none;
+        }
+       
+        
+    #box > #box3{
+        height: 100px;
+        width: 30%;
+        border: 1px solid black;
+        
+    }
