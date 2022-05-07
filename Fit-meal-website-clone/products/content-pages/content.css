@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    border: 0;
+}
+#logo{
+    padding: 120px 15px ;
+    text-align: center;
+    font-size: 35px;
+    background-color: #282d34;
+    background: url("https://www.fitmeals.co.in/wp-content/uploads/2018/02/inner-page.jpg") no-repeat center center/cover;
+    opacity: 0.8;
+    margin-bottom: 30px ;
+    margin-top: 100px;
+ }
+
+#logo>h1{
+  color: white;
+}
+#content{
+    width: 60%;
+    height: auto;
+    margin:auto;
+    /* border: 3px solid black; */
+    display: flex;
+}
+#left_side>img{
+    width: 440px;
+    border-radius: 0;
+}
+#right_side>h2{
+    color: #da2424;
+}
+#right_side{
+    width: auto;
+    padding: 10px;
+    padding-left: 30px;
+}
+
+#right_side>div>input{
+    border: 1px solid rgb(145, 141, 141);
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+input[type=number]::-webkit-inner-spin-button {
+    width: 35px;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    height: 100%;
+  }
+#right_side>h2{
+    margin-bottom: 30px;
+}
+#gram{
+    margin-top: 10px;
+    font-size: 14px;
+}
+h2+p{
+    font-size: 24px;
+    color: #292d35;margin-left: -90px;
+     font-weight: bolder;
+}
+#right_side span{
+    margin-left: 3px;
+    font-weight: 300;
+}
+#right_side>div>button{
+    width: 180px;
+    padding: 14px;
+    border: 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background-color: #da2424;
+    border-radius: 40px ;
+    margin: auto;
+    margin-left: 20px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+}
+#right_side>div>button:hover{
+    transition: color 0.5s ease;
+    background-color: #99b16d;
+}
+#desc{
+    width: 60%;
+    height: auto;
+    padding: 10px;
+    margin:auto;
+    margin-top: 70px;
+    /* border: 3px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.element{
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: 0px; */
+}
+a{
+    margin-left: 40px;
+    font-weight: 700;
+ color: black;
+ text-decoration: none;  
+ text-decoration: underline;  
+ font-family: 'Fira Sans', sans-serif;
+}
+a:hover{
+    color: #99b16d;
+}
+#description{
+    padding: 20px;
+    font-size: 18px;
+    line-height: 30px;
+}
+#description>p:nth-child(2){
+    margin-top: 20px;
+}
+#description>p{
+    color: #464549;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* grid properties */
+#title{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+#container>div{
+    width: 60%;
+    height: auto;
+    text-align: center;
+    /* border: 1px solid blue; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap: 2px;
+    row-gap: 30px;
+    margin: auto;
+}
+img{
+    border-radius: 20px;
+}
+#container>div>div{
+    padding: 10px;
+    line-height: 28px;
+}
+img{
+    width: 100%;
+}
+img:hover
+{
+        -webkit-transform: scale(0.1);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+}
+h2{
+    margin-top: 20px;
+    font-size: 27px;
+}
+h2:hover{
+    transition: color 0.5s ease;
+    color: #99b16d;
+}
+h2+h1{
+    color: #da2424;
+    margin-top: 20px;
+}
+#selectoption{
+    display: flex;
+    flex-direction: column;
+}
+#selectoption>button:nth-child(1){
+    width: 180px;
+    padding: 14px;
+    border: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #da2424;
+    border-radius: 40px ;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+}
+#selectoption>button:nth-child(1):hover{
+    transition: color 0.5s ease;
+    background-color: #99b16d;
+}
+
+#selectoption>button:nth-child(2){
+    border: 0;
+    background-color: white;
+    color: #99b16d;
+    font-size: 16px;
+    font-weight: 700;
+}
+#selectoption>button:nth-child(2):hover{
+    transition: color 0.5s ease;
+    color: #464549;
+}
+
+/* cart_bag */
+#cart_bag{
+    position: fixed;
+    top: 0px;
+    right: 0%;
+    width: 380px;
+    min-height: 100vh;
+    padding: 20px;
+    background: white;
+    box-shadow: -2px 0 4px hsl(0 4% 15% / 10%);
+    z-index: 20;
+    transition: 0.5s;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+}
+.title>div:nth-child(1){
+    margin-bottom: 20px;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+.title>div i{
+    margin-top: 13px;
+    font-size: 42px;
+}
+.title li:hover{
+    font-size: 26px;
+color: rgb(192, 52, 52);
+cursor: pointer;
+}
+.close:hover{
+color: red;
+}
+.cart_title{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+#cart_container{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+#cart_container>div{
+    width: 120px;
+}
+#cart_container>div h4{
+    /* margin-left: -30px; */
+    text-decoration: underline;
+    margin-bottom: 5px;
+    color: rgb(3, 64, 75);
+    padding-top: 5px;
+}
+#cart_container>div p{
+    /* border: 2px solid red; */
+    width: auto;
+    display: flex;
+    color: rgb(36, 121, 136);
+    font-weight: bolder;
+    margin-left: -30px;
+    flex-direction: column;
+    padding-left: 4px ;
+}
+#cartremover{
+    width: 40px;
+    height: 40px;
+    border: 0;
+    background-color: white;
+}
+#cartremover:hover{
+    background-color: rgb(211, 80, 80);
+    color: white;
+}
+
+/* cart button */
+#subtotal_cart{
+    padding: 0px  30px;
+    text-align: center;
+}
+#subtotal_cart>h3{
+ font-size: 20px;
+}
+#subtotal_cart>div{
+    display: flex;
+    flex-direction: column;
+    margin-top: -10px;
+}
+#subtotal_cart>div>button>a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+#subtotal_cart>div>button{
+    width: 100%;
+    padding: 14px;
+    border: 0;
+    font-weight: bolder;
+    color: white;
+    background-color: #b7d188;
+    border-radius: 40px ;
+    margin: auto;
+    margin-top: 12px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+}
+#subtotal_cart>div>button>a:hover{
+    color: #9ac54a;
+    background-color: white;
+}
+#subtotal_cart>div>button:hover{
+    transition: color 0.5s ease;
+    background-color: white;
+    color: #9ac54a;
+}
+#subtotal_cart{
+    width: 350px;
+    position: fixed;
+    bottom: 0;
+}
+
+#cart_btn_right{
+    position: fixed;
+    right: 380px;
+    bottom: 160px;
+    width: 50px;
+    height: 50px;
+    font-size: 36px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px (0,0,0,rgba(50, 50, 93, 0.25));
+    border: none;
+    outline: none;
+    cursor: pointer;
+    z-index: 4;
+ }
+ #cart_btn_right>span{
+     top: -12px;
+     left: -12px;
+     border-radius: 50%;
+     position: absolute;
+     font-size: 20px;
+     width: 28px;
+     height: 28px;
+     line-height: 28px;
+     text-align: center;
+     overflow: hidden;
+     background-color: black;
+     color: #f3f4ec;
+ }
+ @media all and (min-width:451px) and (max-width:1000px){
+    #content{
+        width: 80%;
+        height: auto;
+        margin:auto;
+        /* border: 3px solid black; */
+        display: flex;
+        flex-direction: column;
+    }
+    #container>div{
+        width: 80%;
+        height: auto;
+        text-align: center;
+        /* border: 1px solid blue; */
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto;
+        gap: 2px;
+        row-gap: 30px;
+        margin: auto;
+    }
+ }
+
+ @media all and (min-width:100px) and (max-width:450px){
+    #content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    #content img{
+        width: 300px;
+    }
+    #desc{
+        display: none;
+    }
+    #cart_bag{
+        display: none;
+    }
+    #cart_btn_right{
+        display: none;
+    }
+        
+    #container>div{
+        width: 80%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+ }
