@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BBQ Sauce - Fitmeals</title>
+    <link rel="shortcut icon" href="products.imges/favicon_logo.png">
+    <link rel="stylesheet" href="content.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <button id="cart_btn_right" onclick="myFunction()" >
+        <span>0</span>
+        <i class="fa fa-shopping-cart"></i> 
+    </button>
+    <div id="logo">
+        <h1>BBQ Sauce</h1>
+        
+    </div>
+    <div id="cart_bag">
+        <div class="title">
+                   <div>
+                       <i class="fa fa-shopping-bag"></i>
+                       <h2>Your Cart</h2>
+                    </div> 
+                    <div>
+                        <li type="none"><span onclick="myFunction()" >x</span></li>
+                    </div>
+
+        </div>
+        <hr>
+        <div id="cart_content">
+           <!-- append cart data here -->
+            
+        </div>
+        <div id="subtotal_cart">
+            <h3>Subtotal <span></span></h3>
+                <div>
+                    <button  ><a href="/products_content/product.html">Continue shopping</a> </button>
+                    <button  ><a href="/cart/cart.html">View Cart</a> </button>
+                    <button > <a href="/payment.html/"> Checkout</a></button>
+                </div>
+            </div>
+        </div>
+    <div id="content">
+        <div id="left_side">
+            <img id="image" src="/products.imges/bbq.jpg" alt="">
+        </div>
+        <div id="right_side">
+            <h2 id="quan">₹250.00</h2>
+            <p>Quantity</p>
+            <input type="radio"  id="gram"><span>600 gm</span>
+            <div class="quantity">
+                <input type="number" id="quantity"   min="1" max="10"  value="1"  >
+               <button id="btn">Add to Cart</button>
+            </div>
+            <p>Categories: <span>Products, Vegan Sweets</span></p>
+        </div>
+    </div>
+    <div id="desc">
+         <div class="element">
+             <a href="" >Description</a>
+             <a href="" >Reviews(0)</a>
+         </div>
+         <div id="description">
+             <p>Peanut Chikki or Brittle Candy has a great Natural sweet Taste comes from using Jaggery and peanuts, these delicious guilt-free treats are gluten free.</p>
+             <p><strong>About This Product</strong><br>
+                Gluten Free<br>
+                Soy Free</p>
+         </div>
+        
+    </div>
+    <h2 id="title">Related Products</h2>
+    <div id="container">
+         <div></div>
+ </div>
+     
+ 
+</body>
+</html>
+<script src="content_page.js"></script>

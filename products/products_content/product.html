@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Fitmeals</title>
+    <link rel="shortcut icon" href="products.imges/favicon_logo.png">
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <button id="cart_btn_right" onclick="myFunction()" >
+        <span>0</span>
+        <i class="fa fa-shopping-cart"></i> 
+    </button>
+    <div id="logo">
+        <h1>Products</h1>
+           
+        <div id="cart_bag">
+            <div class="title">
+                       <div>
+                           <i class="fa fa-shopping-bag"></i>
+                           <h2>Your Cart</h2>
+                        </div> 
+                        <div>
+                            <li type="none"><span onclick="myFunction()" >x</span></li>
+                        </div>
+
+            </div>
+            <hr>
+            <div id="cart_content">
+               <!-- append cart data here -->
+            </div>
+            <div id="subtotal_cart">
+                <h3>Subtotal <span></span></h3>
+                    <div>
+                        <button  ><a href="/products_content/product.html">Continue shopping</a> </button>
+                        <button ><a href="/cart/cart.html">View Cart</a> </button>
+                        <button > <a href="/payment.html/"> Checkout</a></button>
+                    </div>
+                </div>
+            </div>
+           
+    </div>
+    
+    <div id="panel">
+        <div id="search_panel">
+            <div id="search_bar">
+                <input type="search" placeholder="Search" >
+                <button type="submit"><li class="fa fa-search"></li></button>
+            </div>
+             <div id="product_cat">
+                 <h3>Product categories <hr></h3>
+                     <li>
+                          <a id="dietplan" href=""><i class="fa fa-caret-right"></i>Diet Plans</a>
+                     </li> 
+                     <hr>
+                       <li>
+                            <a href=""><i class="fa fa-caret-right"></i>Meal Plans </a> 
+                         <hr>
+                         <ul >
+                            <li>  <a href=""><i class="fa fa-caret-right"></i>Keto Plan</a></li>
+                            <li>  <a href=""><i class="fa fa-caret-right"></i>Muscle Gain Plan</a></li>
+                            <li>  <a href=""><i class="fa fa-caret-right"></i>Transformation Challenge</a></li>
+                            <li>  <a href=""><i class="fa fa-caret-right"></i>Weight Loss Plan</a></li>
+                            <li>  <a href=""><i class="fa fa-caret-right"></i>Weight Maintenance Plan</a></li> 
+                            </ul> 
+                     </li>
+                     <li>
+                        <a href=""><i class="fa fa-caret-right"></i>Products</a>
+                         <hr>
+                         <ul >
+                            <li>  <a href=""><i class="fa fa-caret-right"></i>Dishes</a></li>
+                            <li>  <a href=""><i class="fa fa-caret-right"></i>Fresh Bakes</a></li>
+                            <li>  <a href=""><i class="fa fa-caret-right"></i>Low Calories Sauces</a></li>
+                            <li>  <a href=""><i class="fa fa-caret-right"></i>Nut Butters</a></li>
+                            <li>  <a href=""><i class="fa fa-caret-right"></i>Vegan Sweets</a></li>
+                        </ul>
+                     </li>
+                
+
+             </div>
+           
+           <div id="cart">
+               <h3>Cart <hr></h3>
+              
+               <div id="content">
+                   <div id="cart_content2">
+                   </div>
+                   <div id="subtotal_cart_right">
+                    <h3>Subtotal: <span></span></h3>
+                        <div>
+                            <button  ><a href="/products_content/product.html">Continue shopping</a> </button>
+                            <button  ><a href="/cart/cart.html">View Cart</a> </button>
+                            <button > <a href="/payment.html/"> Checkout</a></button>
+                        </div>
+                    </div>
+               </div>
+           </div>
+         </div>
+        
+         <div id="right_container">
+             <div id="showing"> 
+                 <div>
+                    <p>Showing 1-6 of 24 results</p>
+                </div>
+                <div>
+                    <select  id="sort" onchange="sorting()">
+                        <option value="">Default sorting</option>
+                        <option value="popular">sort by popularity</option>
+                        <option value="top">sort by average rating</option>
+                        <option value="sort by price:high to low">sort by price:high to low</option>
+                        <option value="sort by price:low to high">sort by price:low to high</option>
+                    </select>
+                </div>
+             </div> 
+            <div id="container">
+              <div>
+                     <!-- content comes from js  -->
+              </div>
+            </div>
+         </div>
+         
+         
+    </div>
+   
+    
+    
+</body>
+</html> 
+
+ <script src="product.js"></script>
+ 
