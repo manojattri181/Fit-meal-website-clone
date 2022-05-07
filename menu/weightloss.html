@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight loss</title>
+    <link rel="stylesheet" href="weightloss.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cookie&family=Dancing+Script:wght@700&family=Josefin+Sans:wght@200&family=Kanit&family=Poppins:wght@200;400;500&family=Radio+Canada:wght@500&family=Roboto+Slab:wght@200&display=swap');
+        </style> 
+   <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+</head>
+<body>
+ 
+    <div id="box">
+        <!-- <img src="https://www.fitmeals.co.in/wp-content/uploads/2018/02/inner-page.jpg" alt=""> -->
+        <h1>Weight Loss Meal Plan</h1>
+    </div>
+    <div id="box1">
+        <div id="boxA">
+            <p>If your aim is to lose weight in a gradual, healthy manner then this diet
+               would meet your requirements. The meals are well balanced and consist of 
+               complex carbohydrates, lean protein, healthy fats and generous portions of
+               fruits and vegetables which add all the essential vitamins, minerals and fibre 
+               to your diet. <br>
+                  <br>
+               Disclaimer: This isn’t going to be any type of a crash diet which will give 
+               you magical results; we’ll aim for 2-4kgs per month and all your meals will be 
+               designed by our nutritionists who focus not only on seeing results but also on 
+               ensuring that there’s no compromise on your mental and physical health.</p>
+               <button id="btn">View Sample Menu</button>
+        </div>
+        <div id="boxB">
+            <h3 id="para">What our meals look <br> like:</h3>
+            <img id="image" src="https://www.fitmeals.co.in/wp-content/uploads/2021/05/DSC02782-1-360x241.jpg" alt="MEAL" onclick="changeimage()">
+        </div>
+        <script>
+            function changeimage(){
+                let displayimage = document.getElementById("image");
+                if(displayimage.src.match("https://www.fitmeals.co.in/wp-content/uploads/2021/05/DSC02782-1-360x241.jpg")){
+                    displayimage.src="https://www.fitmeals.co.in/wp-content/uploads/2019/10/DSC02724-1024x685.jpg"   
+                }
+                else if( displayimage.src="https://www.fitmeals.co.in/wp-content/uploads/2021/05/keto.jpg"){
+                    displayimage.src="https://www.fitmeals.co.in/wp-content/uploads/2021/05/maintenance.jpg"
+                }
+                else if( displayimage.src="https://www.fitmeals.co.in/wp-content/uploads/2021/05/maintenance.jpg")
+                {
+                    displayimage.src.match("https://www.fitmeals.co.in/wp-content/uploads/2021/05/DSC02782-1-360x241.jpg")
+                }
+                else if ( displayimage.src.match("https://www.fitmeals.co.in/wp-content/uploads/2021/05/DSC02782-1-360x241.jpg")){
+                    displayimage.src.match("https://www.fitmeals.co.in/wp-content/uploads/2021/05/DSC02782-1-360x241.jpg")
+                }
+            }
+            
+        </script>
+    </div>
+   
+        <h2 id="h">How Does it Works?</h2>
+        <!-- <div id="boxC">
+            <div id="box2">
+                <div id="cirlce">
+</div>
+            </div>
+            <div id="box2">
+                
+            </div>
+            <div id="box2">
+                
+            </div>
+            <div id="box2">
+                <i class="fa-solid fa-moped"></i>
+            </div>
+    </div> -->
+
+    <div class="bg-green-child">
+        <div>
+            <div class="bg-light-green"><img src="task.png" width="60px" height="60px" alt=""></div> 
+            <h3>Select Your Plan</h3>
+            <p id="p1">Procuring fresh and fundamental ingredients required for a wholesome meal.</p>
+        </div>
+        <div>
+            <div class="bg-light-green">
+            <img src="user.png" width="60px" height="60px" alt="">
+        </div>
+            <h3>Nutrition Support</h3>
+            <p id="p1">All the meals are designed by our nutrition experts using only the best quality ingredients.</p>
+        </div>
+        <div>
+            <div class="bg-light-green">
+            <img id="scooter" src="delivery-man.png" width="60px" height="60px" alt="">
+        </div>
+            <h3>On time delivery</h3>
+            <p id="p1">Helping you stay ahead of your diet plans.</p>
+        </div>
+        <div>
+            <div class="bg-light-green">
+            <img src="food-serving.png" width="60px" height="60px" alt="">
+            </div>
+            <h3>Preservative-free</h3>
+            <p id="p1">Your ultimate plan for eating clean without added preservatives.</p>
+        </div>
+    </div>
+    <div id="badabox">
+        <div id="smallbx">
+            <h1>Choose your Ideal Program & <br><b>get Started!</b> </h1>
+        </div>
+        <div id="smallbox">
+            <div id="head2"><h2 ><span>1 Week</span> Plan</h2></div>
+            <span id="font" class="material-symbols-outlined">
+                done</span><p id="para2" >Freshly Prepared Meal</p>
+            <span id="font" class="material-symbols-outlined">
+                done</span><p id="para2" >Home delivery</p>
+            <span id="font" class="material-symbols-outlined">
+                done</span><p id="para2" >No refined sugars</p>
+            <span id="font" class="material-symbols-outlined">
+                done</span><p id="para2" >Planned by nutritionists</p>
+            <span id="font" class="material-symbols-outlined">
+                done</span><p id="para2" >Plan flexibility</p>
+                <button>Order Now</button>
+        </div>
+        <div id="smallbox">
+            <div id="head2"><h2 ><span>2 Week</span> Plan</h2></div>
+            <span id="font" class="material-symbols-outlined">
+                done</span><p id="para2" >Freshly Prepared Meal</p>
+            <span id="font" class="material-symbols-outlined">
+                done</span><p id="para2" >Home delivery</p>
+            <span id="font" class="material-symbols-outlined">
+                done</span><p id="para2" >No refined sugars</p>
+            <span id="font" class="material-symbols-outlined">
+                done</span><p id="para2" >Planned by nutritionists</p>
+            <span id="font" class="material-symbols-outlined">
+                done</span><p id="para2" >Plan flexibility</p>
+                <button>Order Now</button>
+        </div>
+        <div id="smallbox">
+            <div id="head2"><h2 ><span>3 Week</span> Plan</h2></div>
+            <span id="font" class="material-symbols-outlined">
+                done</span><p id="para2" >Freshly Prepared Meal</p>
+            <span id="font" class="material-symbols-outlined">
+                done</span><p id="para2" >Home delivery</p>
+            <span id="font" class="material-symbols-outlined">
+                done</span><p id="para2" >No refined sugars</p>
+            <span id="font" class="material-symbols-outlined">
+                done</span><p id="para2" >Planned by nutritionists</p>
+            <span id="font" class="material-symbols-outlined">
+                done</span><p id="para2" >Plan flexibility</p>
+                <button>Order Now</button>
+        </div>
+    </div>
+    <h2 id="head3">Weight Loss Diaries</h2>
+    <div id="head4">
+       <div id="headA">
+     <img  id="img11" src="https://www.fitmeals.co.in/wp-content/uploads/2021/05/E92321D7-99A8-4343-ABE9-595C732CD6E4-3.jpg" alt="" >
+       </div>
+       <div id="headA">
+           <img id="img1" src="https://www.fitmeals.co.in/wp-content/uploads/2021/05/8B7C0945-E90C-46E1-9B35-B67136929EDE-2.jpg" alt="">
+       </div>
+       <div id="headA">
+           <img  id="img1" src="https://www.fitmeals.co.in/wp-content/uploads/2021/05/6447D6C4-E45F-4108-B1FD-E4CFAE2886CA-576x1024.jpg" alt="">
+          
+       </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div id="head5">
+        <img id="img2" src="https://www.smithandcosolicitors.co.uk/wp-content/uploads/2019/12/quotes.svg" alt="">
+        <h1 id="para4">Get fit in the gym, <br> lose weight in the kitchen.</h1>
+           
+    </div>
+</body>
+</html>
