@@ -2,7 +2,7 @@
 
 Hotwire is a travel website that offers airline tickets, hotel rooms, rental cars, and vacation packages. It operates by selling off unsold travel inventory at discounted prices.
 
-<img src="logo.JPG">
+<img src="logo.jpg">
 
 **Our team was given a task to Clone the hotwire.com Website.**
 
