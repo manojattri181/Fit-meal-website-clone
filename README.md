@@ -1,6 +1,6 @@
-# Project-hotwire-clone
+# Project-Fitmeal-clone
 
-Hotwire is a travel website that offers airline tickets, hotel rooms, rental cars, and vacation packages. It operates by selling off unsold travel inventory at discounted prices.
+Fitmeals India, the first delivery service of its kind in India.The intention was to introduce the concept of healthy eating in Hyderabad where people always associated healthy food with terms like ‘expensive’, ‘boring’ and ’bland’.
 
 <img src="logo.jpg" width="500" height="300px">
 
