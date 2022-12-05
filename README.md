@@ -9,6 +9,7 @@ Fitmeals India, the first delivery service of its kind in India.The intention wa
 # To visit our website [Click here](https://fit-meal.netlify.app)
 
 ## Technologies Used
+ We are using HTML,CSS,JavaScript.
 
 <p align="center">
     <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="80" height="80"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </a> 
